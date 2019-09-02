@@ -73,7 +73,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.map do |holiday, supply|
       if supply.include?("BBQ")
         holiday
-      end.join('')
+      end.join(' ')
     end
   end
 end
